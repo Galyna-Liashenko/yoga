@@ -1,0 +1,27 @@
+@font-face {
+    font-family: OpenSans-SemiBold; 
+    src: url(../fonts/OpenSans-SemiBold.ttf); 
+    font-weight: 600;
+   }
+$title-font: OpenSans-SemiBold;
+
+@font-face {
+    font-family: OpenSans-Bold; 
+    src: url(../fonts/OpenSans-Bold.ttf); 
+    font-weight: 700;
+   }
+$title-footer-font: OpenSans-Bold;
+
+@font-face {
+    font-family: OpenSans-Regular; 
+    src: url(../fonts/OpenSans-Regular.ttf); 
+    font-weight: 400;
+   }
+$text-footer-font:OpenSans-Regular;
+
+@font-face {
+    font-family: Champagne; 
+    src: url(../fonts/FREESCPT.TTF); 
+    font-weight: 400;
+   }
+$italic: Champagne;

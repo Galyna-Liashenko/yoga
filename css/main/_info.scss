@@ -1,0 +1,93 @@
+.info{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    justify-content: center;
+    position: relative;
+
+    &__content{
+        flex-grow: 1;
+    }
+
+    .overlay{
+        background: rgba(84, 100, 221, 0.5);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        }
+
+    &__item{
+        padding-left: 10px;
+        padding-right: 10px; 
+        padding-bottom: 62px;
+        z-index: 3;
+        display: flex;
+        flex-direction: column;
+
+        @media (min-width: 320px){
+            padding-top: 47px;
+            padding-bottom: 32px;
+            margin: 0;
+
+            &__item-text{ 
+                padding-right: 10px;
+                padding-left: 10px;
+                font-family: $text-footer-font;
+                font-weight: 400;
+                p{
+                    margin: 0;
+                }
+            }
+
+            h3{
+                padding-bottom: 25px;
+                padding-top: 25px;
+                margin: 0; 
+            }
+
+            .image{
+                margin: 0 auto;
+                border: 3px solid white;
+                border-radius: 50%;
+                width: 75px;
+                height: 75px;
+                img{
+                    display: block;
+                    margin: 0 auto;
+                    padding-top:20px;
+                    display: block;
+            }
+        }
+        @media (min-width: 570px){
+            //padding-top: 124px;
+           // padding-bottom: 72px;
+            width: 50%;
+        }
+
+        @media (min-width: 768px){
+            width: 25%;
+        }
+
+            h3{
+                font-family:$title-footer-font;
+                font-size: 18px;
+                font-weight: 700;
+                text-align: center;
+                text-transform: uppercase;
+                color: #fff;
+            }
+
+            p{
+                font-family:$text-footer-font ;
+                font-size: 16px;
+                font-weight: 400;
+                text-align: center;
+                color: #fff;
+                margin-bottom: 0;
+            }
+        }   
+    }
+}
